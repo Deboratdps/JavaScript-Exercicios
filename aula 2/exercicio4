@@ -1,0 +1,8 @@
+1. O que são as variáveis em uma linguagem de programação?
+R: São espaços reservados na memória de acordo com seu tipo para o recebimento de um valor.
+
+2. Dê exemplo de um tipo de dado e o que este tipo irá representar.
+R: Number, string, booleano.
+Number irá representar números com ou sem casas decimais.
+String irá representar uma cadeia de caracteres.
+Booleano irá retornar true ou false.

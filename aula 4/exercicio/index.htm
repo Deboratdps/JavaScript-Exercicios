@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4 - Controle de Fluxo ou Condicionantes</title>
+</head>
+<script>
+    //estrutura if
+    var ano = 2023;
+
+    // if(ano == 2021){
+    //     console.log("O valor ano é igual a 2021");
+    // }
+
+    if(ano >= 2022){
+        if(ano == 2022){
+            console.log("O ano é igual a 2022");
+        } else{  
+            console.log("O ano é maior a 2022");
+        }
+    } else{
+        console.log("O ano não é menor a 2022");
+    }
+
+    // console.log("fim");
+
+    //operador OR ||
+    var a = 2;
+    var b = 0;
+    var c = 0;
+
+    if(a == 2 || b == 2 || c == 0){
+        console.log("estou no primeiro fluxo do OR");
+    } else{
+        console.log("estou no segundo fluxo do OR");
+    }
+
+    //operador AND &&
+    var x = 8;
+    var y = 3;
+
+    if(x == 3 && y == 3){
+        console.log("estou no primeiro fluxo do AND");
+    } else{
+        console.log("estou no segundo fluxo do AND");
+    }
+
+    //operador diferente !
+    var d = 8;
+    var e = 3;
+
+    if(d != e){
+        console.log("d é diferente de e");
+    } else{
+        console.log("d é igual a e");
+    }
+
+    //Switch
+    switch(x){
+        case 1: console.log("Executando a tarefa 1");
+        break;
+
+        case 2: console.log("Executando a tarefa 2");
+        break;
+
+        case 8: console.log("Executando a tarefa 3");
+        break;
+
+        case 5: 
+            var r = 3;
+            var resultado = r + x;
+            console.log(resultado);
+            if(resultado > 3){
+                console.log("Valor aceitável");
+            }
+            else{
+                console.log("Valor não aceitável");
+            }
+            console.log("Fim da operação");
+        break;
+
+        default: console.log("Essa opção não existe");
+        break;
+    }
+
+</script>
+<body>
+    
+</body>
+</html>

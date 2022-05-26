@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 6 - Funções</title>
+</head>
+<script>
+    //literal
+    function soma(){
+        console.log(1+3);
+    }
+
+    //soma();
+
+    function concatenarNome(){
+        var nome = "Débora";
+        var sobrenome = " dos Santos";
+        alert(nome+sobrenome);
+    }
+
+    //concatenarNome();
+
+    function novaConcatenarNome(nome, sobrenome){
+        document.write(nome+" "+sobrenome);
+    }
+
+    novaConcatenarNome("Débora", "dos Santos");
+
+    let semNome = function(){
+        alert("Estou em uma função anonima");
+    }
+
+    semNome();
+
+    let funPars = function(idade, idadePar){
+        if(idade > idadePar){
+            alert("Você tem idade maior que " +idadePar)
+        } else{
+            alert("Você tem idade menor que " +idadePar)
+        }
+    }
+
+    funPars(20,18);
+    funPars(17,18);
+</script>
+<body>
+    
+</body>
+</html>

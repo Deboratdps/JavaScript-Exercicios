@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 7</title>
+</head>
+<script>
+    var nomeUser = prompt("Digite seu nome");
+    var idade = prompt("Digite sua idade");
+    var msgIdade ='';
+
+    if(idade < 18)
+    {
+        msgIdade = "Idade do usuário: "+idade+". Você tem idade menor que 18 anos";
+    } else if(idade == 18){
+        msgIdade = "Idade do usuário: "+idade+". Você tem idade igual a 18 anos";
+    }
+    else{
+        msgIdade = "Idade do usuário: "+idade+". Você tem idade maior que 18 anos";
+    }
+
+    document.write("Nome do usuário: "+nomeUser +"<br>");
+    document.write("Idade do usuário: "+msgIdade);
+</script>
+<body>
+    
+</body>
+</html>

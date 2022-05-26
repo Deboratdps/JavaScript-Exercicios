@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 6 - Variáveis</title>
+</head>
+<script>
+    var qualquer; //global
+    let qq = "variável let"; //global, porém dentro de um determinado escopo 
+    const valorConstante=100; //global
+
+    if(true){
+        console.log(qualquer);
+        console.log(qq);
+        console.log(valorConstante);
+
+        var varDentroIf = "Estou dentro do if sou uma var";
+        var letDentroIf = "Estou dentro do if sou uma let";
+    }
+    console.log(varDentroIf);
+    console.log(letDentroIf);
+</script>
+<body>
+    
+</body>
+</html>

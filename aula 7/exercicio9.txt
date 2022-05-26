@@ -1,0 +1,13 @@
+1. Qual é a diferença entre as declarações de variáveis var, let e const?
+R: var é uma variável global, que não diferencia os escopos onde é declarada
+let é uma variável global, que diferencia os escopos onde é declarada
+const é uma variável global, que não altera seu valor
+
+2. É verdade que o uso de parâmetros em funções é obrigatório?
+R: Não é obrigatório
+
+3. Selecione a opção verdadeira para inserir um arquivo js em um documento HTML:
+a) <link src="nomdeDoArquivo.js"></link>
+b) <meta src="nomdeDoArquivo.js"></meta>
+===> c) <script src="nomdeDoArquivo.js"></script>    <===
+d) <a href src="nomdeDoArquivo.js"></a>
